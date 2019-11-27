@@ -1,0 +1,25 @@
+{
+  "name": "datetime-machine",
+  "version": "1.0.6",
+  "description": "Compare the difference between the two datetimes.比较两个日期之间的差值",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel index.js -o ./dist/index.js && babel test.js -o ./dist/test.js && node ./dist/test.js"
+  },
+  "keywords": [
+    "datetime",
+    "diff",
+    "difference",
+    "datetime difference",
+    "datetime diff"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "author": "ritr",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
 import DateTimeMachine from './index';
 let datetimeMachine = new DateTimeMachine();
-let a = new Date('2018-1-27 21:29:10');
+let a = new Date('2019-1-27 21:29:10');
 let b = new Date('2019-11-25 22:09:00');
 let res = datetimeMachine.compute(a,b);
 let total = res.total;

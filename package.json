@@ -1,8 +1,15 @@
 {
   "name": "datetime-machine",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Compare the difference between the two datetimes.比较两个日期之间的差值",
   "main": "index.js",
+  "repository":{
+    "type": "git",
+    "url":"git@github.com:Ritr/datetime-machine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ritr/datetime-machine/issues"
+  },
   "scripts": {
     "test": "babel index.js -o ./dist/index.js && babel test.js -o ./dist/test.js && node ./dist/test.js"
   },

@@ -42,3 +42,9 @@ console.log(`后者比前者大${total.hour}时${remainder.minute}分${remainder
 console.log(`后者比前者大${total.minute}分${remainder.second}秒${remainder.millisecond}毫秒`);
 ```
 后者比前者大960519分50秒0毫秒
+
+# 开发者
+```
+npm run test
+```
+这个命令可以用来测试

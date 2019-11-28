@@ -8,6 +8,7 @@
 ```
 var DatetimeMachine = require('datetime-machine/dist').default;
 ```
+正常ES6的方式
 ```
 import DateTimeMachine from 'datetime-machine';
 let datetimeMachine = new DateTimeMachine();

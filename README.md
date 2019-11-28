@@ -2,7 +2,12 @@
 计算两个时间的 年、月、日、时、分、秒、毫秒的总差值和阶梯差值
 # example
 
-### 默认使用ES6的import 和 export，如果你想使用require的方式，请用 require('datetime-machine/dist');
+### 默认使用ES6的import 和 export
+
+如果你想使用require的方式，请用 
+```
+var DatetimeMachine = require('datetime-machine/dist').default;
+```
 ```
 import DateTimeMachine from 'datetime-machine';
 let datetimeMachine = new DateTimeMachine();

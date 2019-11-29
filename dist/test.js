@@ -7,7 +7,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var datetimeMachine = new _index2.default();
-var a = new Date('2018-1-27 21:29:10');
+var a = new Date('2019-1-27 21:29:10');
 var b = new Date('2019-11-25 22:09:00');
 var res = datetimeMachine.compute(a, b);
 var total = res.total;

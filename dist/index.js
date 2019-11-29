@@ -109,7 +109,7 @@ var DateTimeMachine = function () {
         //加上这个月的day
         monthDayDifference = lastDateOfPrevMonth.getDate() - prevDay + nextDay;
       }
-      if (monthDifference < 12) {
+      if (monthDifference < 12 && yearDifference > 0) {
         yearDifference -= 1;
       }
 
